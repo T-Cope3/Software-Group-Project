@@ -1,0 +1,11 @@
+C:\Users\Troy Cope\source\repos\Software Group Project\bin\Debug\Software Group Project.exe.config
+C:\Users\Troy Cope\source\repos\Software Group Project\bin\Debug\Software Group Project.exe
+C:\Users\Troy Cope\source\repos\Software Group Project\bin\Debug\Software Group Project.pdb
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.csproj.AssemblyReference.cache
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form1.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Properties.Resources.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.csproj.GenerateResource.cache
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.csproj.CoreCompileInputs.cache
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.exe
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.pdb

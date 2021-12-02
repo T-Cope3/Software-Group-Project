@@ -9,3 +9,4 @@ C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group 
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.csproj.CoreCompileInputs.cache
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.exe
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.pdb
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form3.resources

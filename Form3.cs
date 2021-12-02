@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace Software_Group_Project
 {
-
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-
-            this.Hide();
-            f3.Show();
-            //this.BringToFront();
+            Form1 f1 = new Form1();
         }
     }
 }

@@ -39,5 +39,15 @@ namespace Software_Group_Project
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button3.Hide();
+        }
     }
 }

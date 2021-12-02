@@ -26,3 +26,5 @@ C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group 
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.pdb
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form2.resources
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form5.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form6.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form7.resources

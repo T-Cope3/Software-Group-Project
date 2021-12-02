@@ -23,9 +23,14 @@ namespace Software_Group_Project
         {
             Form3 f3 = new Form3();
 
-            this.Hide();
+            //this.Hide();
             f3.Show();
-            //this.BringToFront();
+            this.BringToFront();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

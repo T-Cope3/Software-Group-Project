@@ -16,5 +16,10 @@ namespace Software_Group_Project
         {
             InitializeComponent();
         }
+
+        private void Clicker_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -24,7 +24,6 @@ namespace Software_Group_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Software_Group_Project
         private void button1_Click(object sender, EventArgs e)
         {
             Form3 f3 = new Form3();
-
+            Console.WriteLine("Starting");
             //this.Hide();
             f3.Show();
             //this.BringToFront();

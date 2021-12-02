@@ -11,3 +11,18 @@ C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group 
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software Group Project.pdb
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form3.resources
 C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form4.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\bin\Debug\Software Group Project.exe.config
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\bin\Debug\Software Group Project.exe
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\bin\Debug\Software Group Project.pdb
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.csproj.AssemblyReference.cache
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form3.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form4.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form1.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Properties.Resources.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.csproj.GenerateResource.cache
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.csproj.CoreCompileInputs.cache
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.exe
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software Group Project.pdb
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form2.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Form5.resources

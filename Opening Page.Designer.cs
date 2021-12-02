@@ -35,6 +35,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.printPreviewControl1 = new System.Windows.Forms.PrintPreviewControl();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -55,7 +56,7 @@
             // button2
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(80, 41);
+            this.button2.Location = new System.Drawing.Point(82, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(610, 291);
             this.button2.TabIndex = 1;
@@ -64,7 +65,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(56, 397);
+            this.button3.Location = new System.Drawing.Point(728, 105);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -74,10 +75,20 @@
             // 
             // printPreviewControl1
             // 
-            this.printPreviewControl1.Location = new System.Drawing.Point(100, 27);
+            this.printPreviewControl1.Location = new System.Drawing.Point(713, -1);
             this.printPreviewControl1.Name = "printPreviewControl1";
             this.printPreviewControl1.Size = new System.Drawing.Size(100, 100);
             this.printPreviewControl1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(141, 353);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(518, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "this is our sorry excuse for a home page as of right now please someone do someth" +
+    "ing";
             // 
             // Form1
             // 
@@ -85,6 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(815, 447);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.printPreviewControl1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -92,6 +104,7 @@
             this.Name = "Form1";
             this.Text = "Opening Page";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -102,6 +115,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PrintPreviewControl printPreviewControl1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

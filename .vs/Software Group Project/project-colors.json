@@ -1,11 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
-      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
-      "DisplayName": "Miscellaneous Files",
-      "ColorIndex": -1
+    "ead4d7d1-1f52-4f6f-8024-528f0c7ece4a": {
+      "ProjectGuid": "ead4d7d1-1f52-4f6f-8024-528f0c7ece4a",
+      "DisplayName": "Software Group Project",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }

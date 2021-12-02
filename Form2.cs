@@ -26,7 +26,7 @@ namespace Software_Group_Project
         {
             Form4 f4 = new Form4();
 
-            //this.Hide();
+            this.Hide();
             f4.Show();
             //this.BringToFront();
         }
@@ -35,7 +35,7 @@ namespace Software_Group_Project
         {
             Form6 f6 = new Form6();
 
-            //this.Hide();
+            this.Hide();
             f6.Show();
             //this.BringToFront();
         }
@@ -44,7 +44,7 @@ namespace Software_Group_Project
         {
             Form7 f7 = new Form7();
 
-            //this.Hide();
+            this.Hide();
             f7.Show();
             //this.BringToFront();
         }

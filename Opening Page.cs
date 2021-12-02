@@ -23,7 +23,7 @@ namespace Software_Group_Project
         {
             Form3 f3 = new Form3();
             Console.WriteLine("Starting");
-            //this.Hide();
+            this.Hide();
             f3.Show();
             //this.BringToFront();
         }

@@ -33,6 +33,8 @@ namespace Software_Group_Project
             else
             {
                 Form4 f4 = new Form4();
+
+                this.Hide();
                 f4.Show();
             }
             
@@ -52,7 +54,7 @@ namespace Software_Group_Project
         {
             Form2 f2 = new Form2();
 
-            //this.Hide();
+            this.Hide();
             f2.Show();
             //this.BringToFront();
         }
@@ -61,7 +63,7 @@ namespace Software_Group_Project
         {
             Form1 f1 = new Form1();
 
-            //this.Hide();
+            this.Hide();
             f1.Show();
             //this.BringToFront();
         }
@@ -70,7 +72,7 @@ namespace Software_Group_Project
         {
             Form5 f5 = new Form5();
 
-            //this.Hide();
+            this.Hide();
             f5.Show();
             //this.BringToFront();
         }
@@ -79,7 +81,7 @@ namespace Software_Group_Project
         {
             Form5 f5 = new Form5();
 
-            //this.Hide();
+            this.Hide();
             f5.Show();
             //this.BringToFront();
         }

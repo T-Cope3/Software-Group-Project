@@ -22,7 +22,7 @@ namespace Software_Group_Project
         {
             Form3 f3 = new Form3();
            
-            //this.Hide();
+            this.Hide();
             f3.Show();
             //this.BringToFront();
         }
@@ -31,7 +31,7 @@ namespace Software_Group_Project
         {
             Form1 f1 = new Form1();
 
-            //this.Hide();
+            this.Hide();
             f1.Show();
             //this.BringToFront();
         }
@@ -56,7 +56,7 @@ namespace Software_Group_Project
             {
                 Form5 f5 = new Form5();
 
-                //this.Hide();
+                this.Hide();
                 f5.Show();
                 //this.BringToFront();
             }

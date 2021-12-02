@@ -84,6 +84,7 @@
             this.Controls.Add(this.change_cardInfo);
             this.Controls.Add(this.change_Login);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

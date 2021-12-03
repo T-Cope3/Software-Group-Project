@@ -17,6 +17,7 @@ namespace Software_Group_Project
         {
             
             InitializeComponent();
+            currentPage = 1;
             hideAllPage2();
             hideAllPage3();
             hideAllPage4();
@@ -30,7 +31,6 @@ namespace Software_Group_Project
             hideAllPage12();
             hideAllPage13();
             hideAllPage14();
-            hideAllPage15();
         }
         
         private void hideAllPage1()
@@ -84,7 +84,6 @@ namespace Software_Group_Project
             p3_phone_Number_txt.Hide();
             p3_signIn3.Hide();
             p3_submit_Button3.Hide();
-            p3_alreadyorder.Hide();
         }
         private void showAllPage3()
         {
@@ -98,7 +97,6 @@ namespace Software_Group_Project
             p3_phone_Number_txt.Show();
             p3_signIn3.Show();
             p3_submit_Button3.Show();
-            p3_alreadyorder.Show();
         }
         private void hideAllPage4()
         {
@@ -113,7 +111,6 @@ namespace Software_Group_Project
             p4_newpass.Hide();
             p4_newPassword_textBox.Hide();
             p4_submit4.Hide();
-            
         }
         private void showAllPage4()
         {
@@ -485,42 +482,182 @@ namespace Software_Group_Project
             p14_totalprice.Hide();
             p14_tipBox.Hide();
         }
-        private void hideAllPage15()
+
+        public void goBack() 
         {
-            p15_back.Hide();
-            p15_carddir.Hide();
-            p15_change.Hide();
-            p15_help.Hide();
-            p15_signin.Hide();
-            p15_home.Hide();
-            p15_translabel.Hide();
+            int currentPage = pageHistory.First();
+            pageHistory.RemoveAt(0);
+
+            int previousPage = pageHistory.First();
+            pageHistory.RemoveAt(0);
+
+            switch(currentPage)
+            {
+                case 1:
+                    {
+                        hideAllPage1();
+                        break;
+                    }
+                case 2:
+                    {
+                        hideAllPage2();
+                        break;
+                    }
+                case 3:
+                    {
+                        hideAllPage3();
+                        break;
+                    }
+                case 4:
+                    {
+                        hideAllPage4();
+                        break;
+                    }
+                case 5:
+                    {
+                        hideAllPage5();
+                        break;
+                    }
+                case 6:
+                    {
+                        hideAllPage6();
+                        break;
+                    }
+                case 7:
+                    {
+                        hideAllPage7();
+                        break;
+                    }
+                case 8:
+                    {
+                        hideAllPage8();
+                        break;
+                    }
+                case 9:
+                    {
+                        hideAllPage9();
+                        break;
+                    }
+                case 10:
+                    {
+                        hideAllPage10();
+                        break;
+                    }
+                case 11:
+                    {
+                        hideAllPage11();
+                        break;
+                    }
+                case 12:
+                    {
+                        hideAllPage12();
+                        break;
+                    }
+                case 13:
+                    {
+                        hideAllPage13();
+                        break;
+                    }
+                case 14:
+                    {
+                        hideAllPage14();
+                        break;
+                    }
+            }
+
+            switch (previousPage)
+            {
+                case 1:
+                    {
+                        pageHistory.Add(1);
+                        showAllPage1();
+                        break;
+                    }
+                case 2:
+                    {
+                        pageHistory.Add(2);
+                        showAllPage2();
+                        break;
+                    }
+                case 3:
+                    {
+                        pageHistory.Add(3);
+                        showAllPage3();
+                        break;
+                    }
+                case 4:
+                    {
+                        pageHistory.Add(4);
+                        showAllPage4();
+                        break;
+                    }
+                case 5:
+                    {
+                        pageHistory.Add(5);
+                        ShowAllPage5();
+                        break;
+                    }
+                case 6:
+                    {
+                        pageHistory.Add(6);
+                        showAllPage6();
+                        break;
+                    }
+                case 7:
+                    {
+                        pageHistory.Add(7);
+                        showAllPage7();
+                        break;
+                    }
+                case 8:
+                    {
+                        pageHistory.Add(8);
+                        showAllPage8();
+                        break;
+                    }
+                case 9:
+                    {
+                        pageHistory.Add(9);
+                        showAllPage9();
+                        break;
+                    }
+                case 10:
+                    {
+                        pageHistory.Add(10);
+                        showAllPage10();
+                        break;
+                    }
+                case 11:
+                    {
+                        pageHistory.Add(11);
+                        showAllPage11();
+                        break;
+                    }
+                case 12:
+                    {
+                        pageHistory.Add(12);
+                        showAllPage12();
+                        break;
+                    }
+                case 13:
+                    {
+                        pageHistory.Add(13);
+                        showAllPage13();
+                        break;
+                    }
+                case 14:
+                    {
+                        pageHistory.Add(14);
+                        showAllPage14();
+                        break;
+                    }
+            }
         }
-        private void showAllPage15()
-        {
-            p15_back.Show();
-            p15_carddir.Show();
-            p15_signin.Show();
-            p15_change.Show();
-            p15_help.Show();
-            p15_home.Show();
-            p15_translabel.Show();
-        }
-        private void showAllPage16()
-        {
-            p16_contact.Show();
-            p16_mamajaon.Show();
-            p16_mamama.Show();
-            p16_trackorder.Show();
-            p16_wait.Show();
-        }
-        private void hideAllPage16()
-        {
-            p16_contact.Hide();
-            p16_mamajaon.Hide();
-            p16_mamama.Hide();
-            p16_trackorder.Hide();
-            p16_wait.Hide();
-        }
+
+
+        List<int> pageHistory = new List<int>();     
+
+
         String p3_phone, p3_pass, p4_current, p4_new, p4_confirm, p5_Name, p5_Phone, p5_password, p5_Address, p6_debCred, p6_cardNum, p6_expDate, p6_CVV, p6_cardType;
         bool junctioning = false,dontHave=false,loggedin=false, removed=false;
         String p7_routeNum, p7_account, p7_payment, p7_paymentdate, p8_size, p9_sauce, p10_crust,p12_beverage, p12_bevsize, p14_aquisition, p14_paymentType;
@@ -532,6 +669,7 @@ namespace Software_Group_Project
         Pizzas newPizza3 = new Pizzas();
         private void button1_Click(object sender, EventArgs e)
         {
+            //pageHistory.Add(3); if not a back button.
             hideAllPage1();
             showAllPage3();
             junctioning = false;
@@ -547,7 +685,7 @@ namespace Software_Group_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            pageHistory.Add(1);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -1607,51 +1745,6 @@ namespace Software_Group_Project
         private void p14_tip_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void p15_home_Click(object sender, EventArgs e)
-        {
-            showAllPage1();
-            hideAllPage15();
-        }
-
-        private void p15_carddir_Click(object sender, EventArgs e)
-        {
-            showAllPage6();
-            hideAllPage15();
-        }
-
-        private void p15_signin_Click(object sender, EventArgs e)
-        {
-            showAllPage3();
-            hideAllPage15();
-        }
-
-        private void p15_help_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void p15_back_Click(object sender, EventArgs e)
-        {
-            showAllPage14();
-            hideAllPage15();
-        }
-
-        private void p15_change_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void p15_translabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void p3_alreadyorder_Click(object sender, EventArgs e)
-        {
-            hideAllPage3();
-            showAllPage15();
         }
 
         private void p14_orderanother_Click(object sender, EventArgs e)

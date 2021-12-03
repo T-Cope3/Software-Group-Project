@@ -30,6 +30,7 @@ namespace Software_Group_Project
             hideAllPage12();
             hideAllPage13();
             hideAllPage14();
+            hideAllPage15();
         }
         
         private void hideAllPage1()
@@ -83,6 +84,7 @@ namespace Software_Group_Project
             p3_phone_Number_txt.Hide();
             p3_signIn3.Hide();
             p3_submit_Button3.Hide();
+            p3_alreadyorder.Hide();
         }
         private void showAllPage3()
         {
@@ -96,6 +98,7 @@ namespace Software_Group_Project
             p3_phone_Number_txt.Show();
             p3_signIn3.Show();
             p3_submit_Button3.Show();
+            p3_alreadyorder.Show();
         }
         private void hideAllPage4()
         {
@@ -110,6 +113,7 @@ namespace Software_Group_Project
             p4_newpass.Hide();
             p4_newPassword_textBox.Hide();
             p4_submit4.Hide();
+            
         }
         private void showAllPage4()
         {
@@ -481,7 +485,42 @@ namespace Software_Group_Project
             p14_totalprice.Hide();
             p14_tipBox.Hide();
         }
-
+        private void hideAllPage15()
+        {
+            p15_back.Hide();
+            p15_carddir.Hide();
+            p15_change.Hide();
+            p15_help.Hide();
+            p15_signin.Hide();
+            p15_home.Hide();
+            p15_translabel.Hide();
+        }
+        private void showAllPage15()
+        {
+            p15_back.Show();
+            p15_carddir.Show();
+            p15_signin.Show();
+            p15_change.Show();
+            p15_help.Show();
+            p15_home.Show();
+            p15_translabel.Show();
+        }
+        private void showAllPage16()
+        {
+            p16_contact.Show();
+            p16_mamajaon.Show();
+            p16_mamama.Show();
+            p16_trackorder.Show();
+            p16_wait.Show();
+        }
+        private void hideAllPage16()
+        {
+            p16_contact.Hide();
+            p16_mamajaon.Hide();
+            p16_mamama.Hide();
+            p16_trackorder.Hide();
+            p16_wait.Hide();
+        }
         String p3_phone, p3_pass, p4_current, p4_new, p4_confirm, p5_Name, p5_Phone, p5_password, p5_Address, p6_debCred, p6_cardNum, p6_expDate, p6_CVV, p6_cardType;
         bool junctioning = false,dontHave=false,loggedin=false, removed=false;
         String p7_routeNum, p7_account, p7_payment, p7_paymentdate, p8_size, p9_sauce, p10_crust,p12_beverage, p12_bevsize, p14_aquisition, p14_paymentType;
@@ -1568,6 +1607,51 @@ namespace Software_Group_Project
         private void p14_tip_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void p15_home_Click(object sender, EventArgs e)
+        {
+            showAllPage1();
+            hideAllPage15();
+        }
+
+        private void p15_carddir_Click(object sender, EventArgs e)
+        {
+            showAllPage6();
+            hideAllPage15();
+        }
+
+        private void p15_signin_Click(object sender, EventArgs e)
+        {
+            showAllPage3();
+            hideAllPage15();
+        }
+
+        private void p15_help_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p15_back_Click(object sender, EventArgs e)
+        {
+            showAllPage14();
+            hideAllPage15();
+        }
+
+        private void p15_change_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p15_translabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p3_alreadyorder_Click(object sender, EventArgs e)
+        {
+            hideAllPage3();
+            showAllPage15();
         }
 
         private void p14_orderanother_Click(object sender, EventArgs e)

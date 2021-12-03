@@ -67,6 +67,12 @@
     <Compile Include="Class7.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Class8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class9.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Customer.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -133,6 +139,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Class7.resx">
       <DependentUpon>Class7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class8.resx">
+      <DependentUpon>Class8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class9.resx">
+      <DependentUpon>Class9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>

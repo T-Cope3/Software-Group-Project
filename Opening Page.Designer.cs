@@ -202,7 +202,22 @@
             this.p14_Home = new System.Windows.Forms.Button();
             this.p14_back = new System.Windows.Forms.Button();
             this.p14_totalprice = new System.Windows.Forms.Label();
+            this.p15_change = new System.Windows.Forms.Button();
+            this.p15_carddir = new System.Windows.Forms.Button();
+            this.p15_signin = new System.Windows.Forms.Button();
+            this.p15_help = new System.Windows.Forms.Button();
+            this.p15_back = new System.Windows.Forms.Button();
+            this.p15_home = new System.Windows.Forms.Button();
+            this.p15_translabel = new System.Windows.Forms.Label();
+            this.p3_alreadyorder = new System.Windows.Forms.Button();
+            this.p16_mamama = new System.Windows.Forms.PictureBox();
+            this.p16_contact = new System.Windows.Forms.Button();
+            this.p16_trackorder = new System.Windows.Forms.Button();
+            this.p15_count = new System.Windows.Forms.Label();
+            this.p16_wait = new System.Windows.Forms.Label();
+            this.p16_mamajaon = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p16_mamama)).BeginInit();
             this.SuspendLayout();
             // 
             // login1
@@ -375,10 +390,10 @@
             // p3_help_Button3
             // 
             this.p3_help_Button3.BackColor = System.Drawing.SystemColors.Control;
-            this.p3_help_Button3.Location = new System.Drawing.Point(9, 334);
+            this.p3_help_Button3.Location = new System.Drawing.Point(13, 336);
             this.p3_help_Button3.Margin = new System.Windows.Forms.Padding(2);
             this.p3_help_Button3.Name = "p3_help_Button3";
-            this.p3_help_Button3.Size = new System.Drawing.Size(56, 22);
+            this.p3_help_Button3.Size = new System.Drawing.Size(71, 22);
             this.p3_help_Button3.TabIndex = 23;
             this.p3_help_Button3.Text = "Help*";
             this.p3_help_Button3.UseVisualStyleBackColor = false;
@@ -490,10 +505,10 @@
             // 
             this.p4_help_Button4.BackColor = System.Drawing.SystemColors.Control;
             this.p4_help_Button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.p4_help_Button4.Location = new System.Drawing.Point(9, 334);
+            this.p4_help_Button4.Location = new System.Drawing.Point(13, 335);
             this.p4_help_Button4.Margin = new System.Windows.Forms.Padding(2);
             this.p4_help_Button4.Name = "p4_help_Button4";
-            this.p4_help_Button4.Size = new System.Drawing.Size(56, 21);
+            this.p4_help_Button4.Size = new System.Drawing.Size(71, 21);
             this.p4_help_Button4.TabIndex = 34;
             this.p4_help_Button4.Text = "Help";
             this.p4_help_Button4.UseVisualStyleBackColor = false;
@@ -635,10 +650,10 @@
             // 
             this.p5_help_Button5.BackColor = System.Drawing.SystemColors.Control;
             this.p5_help_Button5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.p5_help_Button5.Location = new System.Drawing.Point(9, 334);
+            this.p5_help_Button5.Location = new System.Drawing.Point(11, 336);
             this.p5_help_Button5.Margin = new System.Windows.Forms.Padding(2);
             this.p5_help_Button5.Name = "p5_help_Button5";
-            this.p5_help_Button5.Size = new System.Drawing.Size(56, 19);
+            this.p5_help_Button5.Size = new System.Drawing.Size(73, 19);
             this.p5_help_Button5.TabIndex = 47;
             this.p5_help_Button5.Text = "Help";
             this.p5_help_Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -897,7 +912,7 @@
             // p6_help5
             // 
             this.p6_help5.BackColor = System.Drawing.SystemColors.Control;
-            this.p6_help5.Location = new System.Drawing.Point(12, 331);
+            this.p6_help5.Location = new System.Drawing.Point(9, 334);
             this.p6_help5.Name = "p6_help5";
             this.p6_help5.Size = new System.Drawing.Size(75, 23);
             this.p6_help5.TabIndex = 57;
@@ -1006,7 +1021,7 @@
             // p7_help
             // 
             this.p7_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p7_help.Location = new System.Drawing.Point(13, 331);
+            this.p7_help.Location = new System.Drawing.Point(9, 335);
             this.p7_help.Name = "p7_help";
             this.p7_help.Size = new System.Drawing.Size(75, 23);
             this.p7_help.TabIndex = 81;
@@ -1141,7 +1156,7 @@
             // p8_help
             // 
             this.p8_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p8_help.Location = new System.Drawing.Point(16, 331);
+            this.p8_help.Location = new System.Drawing.Point(12, 334);
             this.p8_help.Name = "p8_help";
             this.p8_help.Size = new System.Drawing.Size(75, 23);
             this.p8_help.TabIndex = 91;
@@ -1240,7 +1255,7 @@
             // p9_help
             // 
             this.p9_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p9_help.Location = new System.Drawing.Point(20, 339);
+            this.p9_help.Location = new System.Drawing.Point(12, 331);
             this.p9_help.Name = "p9_help";
             this.p9_help.Size = new System.Drawing.Size(75, 23);
             this.p9_help.TabIndex = 100;
@@ -1337,7 +1352,7 @@
             // p10_help
             // 
             this.p10_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p10_help.Location = new System.Drawing.Point(16, 331);
+            this.p10_help.Location = new System.Drawing.Point(10, 334);
             this.p10_help.Name = "p10_help";
             this.p10_help.Size = new System.Drawing.Size(75, 23);
             this.p10_help.TabIndex = 108;
@@ -1545,7 +1560,7 @@
             // p11_help
             // 
             this.p11_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p11_help.Location = new System.Drawing.Point(13, 331);
+            this.p11_help.Location = new System.Drawing.Point(10, 334);
             this.p11_help.Name = "p11_help";
             this.p11_help.Size = new System.Drawing.Size(75, 23);
             this.p11_help.TabIndex = 112;
@@ -1698,7 +1713,7 @@
             // p12_homebutton
             // 
             this.p12_homebutton.BackColor = System.Drawing.SystemColors.Control;
-            this.p12_homebutton.Location = new System.Drawing.Point(16, 330);
+            this.p12_homebutton.Location = new System.Drawing.Point(12, 335);
             this.p12_homebutton.Name = "p12_homebutton";
             this.p12_homebutton.Size = new System.Drawing.Size(75, 23);
             this.p12_homebutton.TabIndex = 127;
@@ -1905,7 +1920,7 @@
             // p13_help
             // 
             this.p13_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p13_help.Location = new System.Drawing.Point(20, 330);
+            this.p13_help.Location = new System.Drawing.Point(13, 334);
             this.p13_help.Name = "p13_help";
             this.p13_help.Size = new System.Drawing.Size(75, 23);
             this.p13_help.TabIndex = 156;
@@ -2045,7 +2060,7 @@
             // p14_Help
             // 
             this.p14_Help.BackColor = System.Drawing.SystemColors.Control;
-            this.p14_Help.Location = new System.Drawing.Point(12, 332);
+            this.p14_Help.Location = new System.Drawing.Point(10, 334);
             this.p14_Help.Name = "p14_Help";
             this.p14_Help.Size = new System.Drawing.Size(75, 23);
             this.p14_Help.TabIndex = 159;
@@ -2086,12 +2101,174 @@
             this.p14_totalprice.Text = "Total";
             this.p14_totalprice.Click += new System.EventHandler(this.p14_totalprice_Click);
             // 
+            // p15_change
+            // 
+            this.p15_change.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_change.Location = new System.Drawing.Point(232, 219);
+            this.p15_change.Name = "p15_change";
+            this.p15_change.Size = new System.Drawing.Size(116, 23);
+            this.p15_change.TabIndex = 180;
+            this.p15_change.Text = "Change Information?";
+            this.p15_change.UseVisualStyleBackColor = false;
+            this.p15_change.Click += new System.EventHandler(this.p15_change_Click);
+            // 
+            // p15_carddir
+            // 
+            this.p15_carddir.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_carddir.Location = new System.Drawing.Point(190, 168);
+            this.p15_carddir.Name = "p15_carddir";
+            this.p15_carddir.Size = new System.Drawing.Size(210, 23);
+            this.p15_carddir.TabIndex = 179;
+            this.p15_carddir.Text = "Or enter card information directly?";
+            this.p15_carddir.UseVisualStyleBackColor = false;
+            this.p15_carddir.Click += new System.EventHandler(this.p15_carddir_Click);
+            // 
+            // p15_signin
+            // 
+            this.p15_signin.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_signin.Location = new System.Drawing.Point(213, 119);
+            this.p15_signin.Name = "p15_signin";
+            this.p15_signin.Size = new System.Drawing.Size(154, 23);
+            this.p15_signin.TabIndex = 178;
+            this.p15_signin.Text = "Would you like to sign in?";
+            this.p15_signin.UseVisualStyleBackColor = false;
+            this.p15_signin.Click += new System.EventHandler(this.p15_signin_Click);
+            // 
+            // p15_help
+            // 
+            this.p15_help.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_help.Location = new System.Drawing.Point(9, 334);
+            this.p15_help.Name = "p15_help";
+            this.p15_help.Size = new System.Drawing.Size(75, 23);
+            this.p15_help.TabIndex = 177;
+            this.p15_help.Text = "Help";
+            this.p15_help.UseVisualStyleBackColor = false;
+            this.p15_help.Click += new System.EventHandler(this.p15_help_Click);
+            // 
+            // p15_back
+            // 
+            this.p15_back.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_back.Location = new System.Drawing.Point(12, 12);
+            this.p15_back.Name = "p15_back";
+            this.p15_back.Size = new System.Drawing.Size(75, 23);
+            this.p15_back.TabIndex = 176;
+            this.p15_back.Text = "Back";
+            this.p15_back.UseVisualStyleBackColor = false;
+            this.p15_back.Click += new System.EventHandler(this.p15_back_Click);
+            // 
+            // p15_home
+            // 
+            this.p15_home.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_home.Location = new System.Drawing.Point(513, 12);
+            this.p15_home.Name = "p15_home";
+            this.p15_home.Size = new System.Drawing.Size(75, 23);
+            this.p15_home.TabIndex = 175;
+            this.p15_home.Text = "Home";
+            this.p15_home.UseVisualStyleBackColor = false;
+            this.p15_home.Click += new System.EventHandler(this.p15_home_Click);
+            // 
+            // p15_translabel
+            // 
+            this.p15_translabel.AutoSize = true;
+            this.p15_translabel.BackColor = System.Drawing.SystemColors.Control;
+            this.p15_translabel.Location = new System.Drawing.Point(248, 50);
+            this.p15_translabel.Name = "p15_translabel";
+            this.p15_translabel.Size = new System.Drawing.Size(81, 13);
+            this.p15_translabel.TabIndex = 174;
+            this.p15_translabel.Text = "Transition Page";
+            this.p15_translabel.Click += new System.EventHandler(this.p15_translabel_Click);
+            // 
+            // p3_alreadyorder
+            // 
+            this.p3_alreadyorder.BackColor = System.Drawing.SystemColors.Control;
+            this.p3_alreadyorder.Location = new System.Drawing.Point(483, 290);
+            this.p3_alreadyorder.Name = "p3_alreadyorder";
+            this.p3_alreadyorder.Size = new System.Drawing.Size(113, 23);
+            this.p3_alreadyorder.TabIndex = 181;
+            this.p3_alreadyorder.Text = "Already Ordered";
+            this.p3_alreadyorder.UseVisualStyleBackColor = false;
+            this.p3_alreadyorder.Click += new System.EventHandler(this.p3_alreadyorder_Click);
+            // 
+            // p16_mamama
+            // 
+            this.p16_mamama.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_mamama.Image = ((System.Drawing.Image)(resources.GetObject("p16_mamama.Image")));
+            this.p16_mamama.Location = new System.Drawing.Point(6, 12);
+            this.p16_mamama.Name = "p16_mamama";
+            this.p16_mamama.Size = new System.Drawing.Size(370, 343);
+            this.p16_mamama.TabIndex = 187;
+            this.p16_mamama.TabStop = false;
+            // 
+            // p16_contact
+            // 
+            this.p16_contact.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_contact.Location = new System.Drawing.Point(493, 319);
+            this.p16_contact.Name = "p16_contact";
+            this.p16_contact.Size = new System.Drawing.Size(102, 23);
+            this.p16_contact.TabIndex = 186;
+            this.p16_contact.Text = "Contact Us!";
+            this.p16_contact.UseVisualStyleBackColor = false;
+            // 
+            // p16_trackorder
+            // 
+            this.p16_trackorder.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_trackorder.Location = new System.Drawing.Point(493, 290);
+            this.p16_trackorder.Name = "p16_trackorder";
+            this.p16_trackorder.Size = new System.Drawing.Size(102, 23);
+            this.p16_trackorder.TabIndex = 185;
+            this.p16_trackorder.Text = "Track My Order";
+            this.p16_trackorder.UseVisualStyleBackColor = false;
+            // 
+            // p15_count
+            // 
+            this.p15_count.AutoSize = true;
+            this.p15_count.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p15_count.Location = new System.Drawing.Point(544, 228);
+            this.p15_count.Name = "p15_count";
+            this.p15_count.Size = new System.Drawing.Size(13, 13);
+            this.p15_count.TabIndex = 184;
+            this.p15_count.Text = "0";
+            // 
+            // p16_wait
+            // 
+            this.p16_wait.AutoSize = true;
+            this.p16_wait.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_wait.Location = new System.Drawing.Point(420, 228);
+            this.p16_wait.Name = "p16_wait";
+            this.p16_wait.Size = new System.Drawing.Size(107, 13);
+            this.p16_wait.TabIndex = 183;
+            this.p16_wait.Text = "Estimated Wait Time:";
+            // 
+            // p16_mamajaon
+            // 
+            this.p16_mamajaon.AutoSize = true;
+            this.p16_mamajaon.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_mamajaon.Location = new System.Drawing.Point(401, 36);
+            this.p16_mamajaon.Name = "p16_mamajaon";
+            this.p16_mamajaon.Size = new System.Drawing.Size(180, 13);
+            this.p16_mamajaon.TabIndex = 182;
+            this.p16_mamajaon.Text = "MAMA JOAN is preparing your pizza!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.p16_mamama);
+            this.Controls.Add(this.p16_contact);
+            this.Controls.Add(this.p16_trackorder);
+            this.Controls.Add(this.p15_count);
+            this.Controls.Add(this.p16_wait);
+            this.Controls.Add(this.p16_mamajaon);
+            this.Controls.Add(this.p3_alreadyorder);
+            this.Controls.Add(this.p15_change);
+            this.Controls.Add(this.p15_carddir);
+            this.Controls.Add(this.p15_signin);
+            this.Controls.Add(this.p15_help);
+            this.Controls.Add(this.p15_back);
+            this.Controls.Add(this.p15_home);
+            this.Controls.Add(this.p15_translabel);
             this.Controls.Add(this.p14_totalprice);
             this.Controls.Add(this.p14_check);
             this.Controls.Add(this.p14_card);
@@ -2269,6 +2446,7 @@
             this.Text = "Opening Page";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.p16_mamama)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2448,6 +2626,20 @@
         private System.Windows.Forms.Button p14_Home;
         private System.Windows.Forms.Button p14_back;
         private System.Windows.Forms.Label p14_totalprice;
+        private System.Windows.Forms.Button p15_change;
+        private System.Windows.Forms.Button p15_carddir;
+        private System.Windows.Forms.Button p15_signin;
+        private System.Windows.Forms.Button p15_help;
+        private System.Windows.Forms.Button p15_back;
+        private System.Windows.Forms.Button p15_home;
+        private System.Windows.Forms.Label p15_translabel;
+        private System.Windows.Forms.Button p3_alreadyorder;
+        private System.Windows.Forms.PictureBox p16_mamama;
+        private System.Windows.Forms.Button p16_contact;
+        private System.Windows.Forms.Button p16_trackorder;
+        private System.Windows.Forms.Label p15_count;
+        private System.Windows.Forms.Label p16_wait;
+        private System.Windows.Forms.Label p16_mamajaon;
     }
 }
 

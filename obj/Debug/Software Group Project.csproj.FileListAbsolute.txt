@@ -35,3 +35,5 @@ C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class5.resources
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class6.resources
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class7.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class8.resources
+C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class9.resources

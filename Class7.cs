@@ -90,6 +90,7 @@ namespace Software_Group_Project
             this.p14_finalize.TabIndex = 3;
             this.p14_finalize.Text = "Finalize Order";
             this.p14_finalize.UseVisualStyleBackColor = true;
+            this.p14_finalize.Click += new System.EventHandler(this.p14_finalize_Click);
             // 
             // p14_orderanother
             // 
@@ -99,13 +100,14 @@ namespace Software_Group_Project
             this.p14_orderanother.TabIndex = 4;
             this.p14_orderanother.Text = "Order Another";
             this.p14_orderanother.UseVisualStyleBackColor = true;
+            this.p14_orderanother.Click += new System.EventHandler(this.p14_orderanother_Click);
             // 
             // p14_tip
             // 
             this.p14_tip.AutoSize = true;
             this.p14_tip.Location = new System.Drawing.Point(142, 74);
             this.p14_tip.Name = "p14_tip";
-            this.p14_tip.Size = new System.Drawing.Size(25, 13);
+            this.p14_tip.Size = new System.Drawing.Size(30, 16);
             this.p14_tip.TabIndex = 5;
             this.p14_tip.Text = "Tip:";
             // 
@@ -114,7 +116,7 @@ namespace Software_Group_Project
             this.p14_total.AutoSize = true;
             this.p14_total.Location = new System.Drawing.Point(133, 130);
             this.p14_total.Name = "p14_total";
-            this.p14_total.Size = new System.Drawing.Size(34, 13);
+            this.p14_total.Size = new System.Drawing.Size(41, 16);
             this.p14_total.TabIndex = 6;
             this.p14_total.Text = "Total:";
             // 
@@ -122,14 +124,15 @@ namespace Software_Group_Project
             // 
             this.p14_tipBox.Location = new System.Drawing.Point(200, 74);
             this.p14_tipBox.Name = "p14_tipBox";
-            this.p14_tipBox.Size = new System.Drawing.Size(100, 20);
+            this.p14_tipBox.Size = new System.Drawing.Size(100, 22);
             this.p14_tipBox.TabIndex = 7;
+            this.p14_tipBox.TextChanged += new System.EventHandler(this.p14_tipBox_TextChanged);
             // 
             // p14_totalBox
             // 
             this.p14_totalBox.Location = new System.Drawing.Point(200, 130);
             this.p14_totalBox.Name = "p14_totalBox";
-            this.p14_totalBox.Size = new System.Drawing.Size(100, 20);
+            this.p14_totalBox.Size = new System.Drawing.Size(100, 22);
             this.p14_totalBox.TabIndex = 8;
             // 
             // p14_label
@@ -137,7 +140,7 @@ namespace Software_Group_Project
             this.p14_label.AutoSize = true;
             this.p14_label.Location = new System.Drawing.Point(216, 22);
             this.p14_label.Name = "p14_label";
-            this.p14_label.Size = new System.Drawing.Size(53, 13);
+            this.p14_label.Size = new System.Drawing.Size(63, 16);
             this.p14_label.TabIndex = 9;
             this.p14_label.Text = "Checkout";
             // 
@@ -149,6 +152,7 @@ namespace Software_Group_Project
             this.p14_caltip.TabIndex = 10;
             this.p14_caltip.Text = "Calculate Tip";
             this.p14_caltip.UseVisualStyleBackColor = true;
+            this.p14_caltip.Click += new System.EventHandler(this.p14_caltip_Click);
             // 
             // p14_delivery
             // 
@@ -221,6 +225,26 @@ namespace Software_Group_Project
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p14_finalize_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p14_orderanother_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p14_tipBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p14_caltip_Click(object sender, EventArgs e)
         {
 
         }

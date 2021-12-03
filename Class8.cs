@@ -41,7 +41,7 @@ namespace Software_Group_Project
             this.p15_translabel.AutoSize = true;
             this.p15_translabel.Location = new System.Drawing.Point(248, 50);
             this.p15_translabel.Name = "p15_translabel";
-            this.p15_translabel.Size = new System.Drawing.Size(81, 13);
+            this.p15_translabel.Size = new System.Drawing.Size(102, 16);
             this.p15_translabel.TabIndex = 0;
             this.p15_translabel.Text = "Transition Page";
             // 
@@ -98,6 +98,7 @@ namespace Software_Group_Project
             this.p15_change.TabIndex = 6;
             this.p15_change.Text = "Change Information?";
             this.p15_change.UseVisualStyleBackColor = true;
+            this.p15_change.Click += new System.EventHandler(this.p15_change_Click);
             // 
             // Class8
             // 
@@ -112,6 +113,11 @@ namespace Software_Group_Project
             this.Name = "Class8";
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void p15_change_Click(object sender, EventArgs e)
+        {
 
         }
     }

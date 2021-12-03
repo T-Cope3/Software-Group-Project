@@ -66,6 +66,7 @@ namespace Software_Group_Project
             change_checkInfo2.Hide();
             change_cardInfo2.Hide();
             change_Login2.Hide();
+            p3_back_Button3.Hide();
 
         }
         private void showAllPage2()
@@ -74,6 +75,7 @@ namespace Software_Group_Project
             change_checkInfo2.Show();
             change_cardInfo2.Show();
             change_Login2.Show();
+            p3_back_Button3.Show();
         }
         private void hideAllPage3()
         {
@@ -528,20 +530,16 @@ namespace Software_Group_Project
         }
         public void goBack() 
         {
-            int currentPage = pageHistory.Last();
-            Console.WriteLine(currentPage);
-            pageHistory.RemoveAt(pageHistory.Count-1);
+            Console.WriteLine("Stack Looks like!: " + pageHistory.ToString());
 
-            int previousPage = pageHistory.Last();
-            Console.WriteLine(pageHistory.Count-1);
-            pageHistory.RemoveAt(0);
+            int currentPage = pageHistory.Pop();
+            Console.WriteLine("Previous Page hiding is: " + currentPage);
+            int previousPage = pageHistory.Pop();
+            Console.WriteLine("Current Page showing is: " + previousPage);
 
-            
-            
 
-            
 
-            switch(currentPage)
+            switch (currentPage)
             {
                 case 1:
                     {
@@ -629,97 +627,97 @@ namespace Software_Group_Project
             {
                 case 1:
                     {
-                        pageHistory.Add(1);
+                        pageHistory.Push(1);
                         showAllPage1();
                         break;
                     }
                 case 2:
                     {
-                        pageHistory.Add(2);
+                        pageHistory.Push(2);
                         showAllPage2();
                         break;
                     }
                 case 3:
                     {
-                        pageHistory.Add(3);
+                        pageHistory.Push(3);
                         showAllPage3();
                         break;
                     }
                 case 4:
                     {
-                        pageHistory.Add(4);
+                        pageHistory.Push(4);
                         showAllPage4();
                         break;
                     }
                 case 5:
                     {
-                        pageHistory.Add(5);
+                        pageHistory.Push(5);
                         ShowAllPage5();
                         break;
                     }
                 case 6:
                     {
-                        pageHistory.Add(6);
+                        pageHistory.Push(6);
                         showAllPage6();
                         break;
                     }
                 case 7:
                     {
-                        pageHistory.Add(7);
+                        pageHistory.Push(7);
                         showAllPage7();
                         break;
                     }
                 case 8:
                     {
-                        pageHistory.Add(8);
+                        pageHistory.Push(8);
                         showAllPage8();
                         break;
                     }
                 case 9:
                     {
-                        pageHistory.Add(9);
+                        pageHistory.Push(9);
                         showAllPage9();
                         break;
                     }
                 case 10:
                     {
-                        pageHistory.Add(10);
+                        pageHistory.Push(10);
                         showAllPage10();
                         break;
                     }
                 case 11:
                     {
-                        pageHistory.Add(11);
+                        pageHistory.Push(11);
                         showAllPage11();
                         break;
                     }
                 case 12:
                     {
-                        pageHistory.Add(12);
+                        pageHistory.Push(12);
                         showAllPage12();
                         break;
                     }
                 case 13:
                     {
-                        pageHistory.Add(13);
+                        pageHistory.Push(13);
                         showAllPage13();
                         break;
                     }
                 case 14:
                     {
-                        pageHistory.Add(14);
+                        pageHistory.Push(14);
                         showAllPage14();
                         break;
                     }
                 case 15:
                     {
-                        pageHistory.Add(15);
+                        pageHistory.Push(15);
                         showAllPage15();
                         break;
                     }
                 case 16:
                     {
-                        pageHistory.Add(16);
+                        pageHistory.Push(16);
                         showAllPage16();
                         break;
                     }
@@ -728,7 +726,7 @@ namespace Software_Group_Project
         }
 
 
-        List<int> pageHistory = new List<int>();     
+        Stack<int> pageHistory = new Stack<int>();     
 
 
         String p3_phone, p3_pass, p4_current, p4_new, p4_confirm, p5_Name, p5_Phone, p5_password, p5_Address, p6_debCred, p6_cardNum, p6_expDate, p6_CVV, p6_cardType;
@@ -744,7 +742,7 @@ namespace Software_Group_Project
         private void button1_Click(object sender, EventArgs e)
         {
             
-            pageHistory.Add(3);
+            pageHistory.Push(3);
             hideAllPage1();
             showAllPage3();
             
@@ -753,7 +751,7 @@ namespace Software_Group_Project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(5);
+            pageHistory.Push(5);
             ShowAllPage5();
             hideAllPage1();
 
@@ -761,12 +759,12 @@ namespace Software_Group_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(2);
+            pageHistory.Push(2);
             hideAllPage1();
             showAllPage2();
         }
@@ -775,7 +773,7 @@ namespace Software_Group_Project
         {
             showAllPage8();
             hideAllPage1();
-            pageHistory.Add(8);
+            pageHistory.Push(8);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -813,7 +811,7 @@ namespace Software_Group_Project
         private void home_Button3_Click(object sender, EventArgs e)
         {
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
             hideAllPage3();
             showAllPage1();
         }
@@ -833,7 +831,7 @@ namespace Software_Group_Project
         private void p3_noAccount_Click(object sender, EventArgs e)
         {
             hideAllPage3();
-            pageHistory.Add(5);
+            pageHistory.Push(5);
             ShowAllPage5();
         }
 
@@ -849,7 +847,7 @@ namespace Software_Group_Project
 
         private void change_Login2_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(4);
+            pageHistory.Push(4);
             hideAllPage2();
             showAllPage4();
         }
@@ -886,7 +884,7 @@ namespace Software_Group_Project
             hideAllPage6();
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p6_debit5_Click(object sender, EventArgs e)
@@ -939,7 +937,7 @@ namespace Software_Group_Project
                 hideAllPage6();
                 showAllPage1();
                 pageHistory.Clear();
-                pageHistory.Add(1);
+                pageHistory.Push(1);
             }
         }
 
@@ -952,7 +950,7 @@ namespace Software_Group_Project
         {
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
             hideAllPage7();
         }
 
@@ -1107,7 +1105,7 @@ namespace Software_Group_Project
             showAllPage1();
             hideAllPage9();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
 
         }
 
@@ -1199,7 +1197,7 @@ namespace Software_Group_Project
             }
             else
             {
-                pageHistory.Add(10);
+                pageHistory.Push(10);
                 hideAllPage9();
                 showAllPage10();
             }
@@ -1285,7 +1283,7 @@ namespace Software_Group_Project
             showAllPage1();
             hideAllPage10();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p11_back_Click(object sender, EventArgs e)
@@ -1297,13 +1295,13 @@ namespace Software_Group_Project
         {
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
             hideAllPage11();
         }
 
         private void p11_next_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(12);
+            pageHistory.Push(12);
             hideAllPage11();
             showAllPage12();
         }
@@ -1444,8 +1442,7 @@ namespace Software_Group_Project
 
         private void p12_back_Click(object sender, EventArgs e)
         {
-            showAllPage11();
-            hideAllPage12();
+            goBack();
         }
 
         private void p12_medium_Click(object sender, EventArgs e)
@@ -1597,6 +1594,7 @@ namespace Software_Group_Project
         {
             run++;
             hideAllPage12();
+            pageHistory.Push(8);
             showAllPage8();
         }
 
@@ -1608,7 +1606,7 @@ namespace Software_Group_Project
             }
             else
             {
-                pageHistory.Add(13);
+                pageHistory.Push(13);
                 showAllPage13();
                 hideAllPage12();
                 if (newPizza.size != null) {
@@ -1640,12 +1638,12 @@ namespace Software_Group_Project
             hideAllPage13();
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p13_proceed_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(14);
+            pageHistory.Push(14);
             hideAllPage13();
             showAllPage14();
             p14_totalprice.Text = "" + (newPizza.tip + pizzaprice1 + newPizza2.tip + pizzaprice2 + newPizza3.tip + pizzaprice3);
@@ -1660,7 +1658,7 @@ namespace Software_Group_Project
             if (removed)
             {
                 numofTops = 0;
-                pageHistory.Add(8);
+                pageHistory.Push(8);
                 hideAllPage13();
                 showAllPage8();
             }
@@ -1668,7 +1666,7 @@ namespace Software_Group_Project
             {
                 run++;
                 numofTops = 0;
-                pageHistory.Add(8);
+                pageHistory.Push(8);
                 hideAllPage13();
                 showAllPage8();
             }
@@ -1703,7 +1701,7 @@ namespace Software_Group_Project
         private void p13_modpizza1_Click(object sender, EventArgs e)
         {
             showAllPage8();
-            pageHistory.Add(8);
+            pageHistory.Push(8);
             hideAllPage13();
             run = 1;
             newPizza.clear();
@@ -1712,7 +1710,7 @@ namespace Software_Group_Project
         private void p13_modpizza2_Click(object sender, EventArgs e)
         {
             showAllPage8();
-            pageHistory.Add(8);
+            pageHistory.Push(8);
             hideAllPage13();
             run = 2;
             newPizza2.clear();
@@ -1721,7 +1719,7 @@ namespace Software_Group_Project
         private void p13_modpizza3_Click(object sender, EventArgs e)
         {
             showAllPage8();
-            pageHistory.Add(8);
+            pageHistory.Push(8);
             hideAllPage13();
             run = 3;
             newPizza3.clear();
@@ -1761,17 +1759,20 @@ namespace Software_Group_Project
         {
             if(run==1){
                 pizza1tip = pizzaprice1 * 0.15;
+                MessageBox.Show("The Tip is: " + pizza1tip);
             }
             if (run == 2)
             {
                 pizza2tip = pizzaprice2 * 0.15;
+                MessageBox.Show("The Tip is: " + pizza2tip);
 
             }
             if (run == 3)
             {
                 pizza3tip = pizzaprice3 * 0.15;
-            }
-            
+                MessageBox.Show("The Tip is: " + pizza3tip);
+            }            
+
         }
 
         private void p14_label_Click(object sender, EventArgs e)
@@ -1824,6 +1825,7 @@ namespace Software_Group_Project
         private void p14_tip_Click(object sender, EventArgs e)
         {
 
+            
         }
 
         private void p14_orderanother_Click(object sender, EventArgs e)
@@ -1834,15 +1836,15 @@ namespace Software_Group_Project
             }
             else
             {
-                pageHistory.Add(8);
                 hideAllPage14();
+                pageHistory.Push(8);
                 showAllPage8();
             }
         }
 
         private void p14_finalize_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(15);
+            pageHistory.Push(15);
             hideAllPage14();
             showAllPage15();
         }
@@ -1862,7 +1864,7 @@ namespace Software_Group_Project
             showAllPage1();
             pageHistory.Clear();
             hideAllPage14();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p14_check_Click(object sender, EventArgs e)
@@ -1873,20 +1875,20 @@ namespace Software_Group_Project
         {
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
             hideAllPage15();
         }
 
         private void p15_carddir_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(6);
+            pageHistory.Push(6);
             showAllPage6();
             hideAllPage15();
         }
 
         private void p15_signin_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(3);
+            pageHistory.Push(3);
             showAllPage3();
             hideAllPage15();
         }
@@ -1915,6 +1917,7 @@ namespace Software_Group_Project
         {
 
             hideAllPage3();
+            pageHistory.Push(15);
             showAllPage15();
         }
 
@@ -1923,7 +1926,7 @@ namespace Software_Group_Project
             showAllPage1();
             pageHistory.Clear();
             hideAllPage12();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p12_large_Click(object sender, EventArgs e)
@@ -2005,7 +2008,7 @@ namespace Software_Group_Project
 
         private void p10_next_Click(object sender, EventArgs e)
         {
-            pageHistory.Add(11);
+            pageHistory.Push(11);
             hideAllPage10();
             showAllPage11();
         }
@@ -2019,7 +2022,7 @@ namespace Software_Group_Project
         {
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
             hideAllPage8();
         }
 
@@ -2031,7 +2034,7 @@ namespace Software_Group_Project
             }
             else
             {
-                pageHistory.Add(9);
+                pageHistory.Push(9);
                 hideAllPage8();
                 showAllPage9();
             }
@@ -2043,7 +2046,7 @@ namespace Software_Group_Project
             showAllPage1();
             hideAllPage7();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p7_save_Click(object sender, EventArgs e)
@@ -2054,7 +2057,7 @@ namespace Software_Group_Project
         private void change_checkInfo2_Click(object sender, EventArgs e)
         {
             showAllPage7();
-            pageHistory.Add(7);
+            pageHistory.Push(7);
             hideAllPage2();
         }
 
@@ -2062,7 +2065,7 @@ namespace Software_Group_Project
         {
             showAllPage6();
             hideAllPage2();
-            pageHistory.Add(6);
+            pageHistory.Push(6);
         }
 
         private void p6_visa5_Click(object sender, EventArgs e)
@@ -2075,7 +2078,7 @@ namespace Software_Group_Project
             showAllPage1();
             hideAllPage5();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p5_back_Button5_Click(object sender, EventArgs e)
@@ -2119,7 +2122,7 @@ namespace Software_Group_Project
                 newCust.Password = p4_confirm;
                 showAllPage1();
                 pageHistory.Clear();
-                pageHistory.Add(1);
+                pageHistory.Push(1);
                 hideAllPage4();
             }
             
@@ -2133,7 +2136,7 @@ namespace Software_Group_Project
             }
             else
             {
-                pageHistory.Add(6);
+                pageHistory.Push(6);
                 showAllPage6();
                 hideAllPage5();
             }
@@ -2151,7 +2154,7 @@ namespace Software_Group_Project
             hideAllPage4();
             showAllPage1();
             pageHistory.Clear();
-            pageHistory.Add(1);
+            pageHistory.Push(1);
         }
 
         private void p4_currentPassword_textBox_TextChanged(object sender, EventArgs e)

@@ -37,3 +37,16 @@ C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class7.resources
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class8.resources
 C:\Users\Silas\Documents\GitHub\Software-Group-Project\obj\Debug\Software_Group_Project.Class9.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class1.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class2.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class3.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class4.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class5.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class6.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class7.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class8.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Class9.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form2.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form5.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form6.resources
+C:\Users\Troy Cope\source\repos\Software Group Project\obj\Debug\Software_Group_Project.Form7.resources

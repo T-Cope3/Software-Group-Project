@@ -46,6 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,8 +110,30 @@
     <Compile Include="Opening Page.Designer.cs">
       <DependentUpon>Opening Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pizzas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Class1.resx">
+      <DependentUpon>Class1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class2.resx">
+      <DependentUpon>Class2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class3.resx">
+      <DependentUpon>Class3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class4.resx">
+      <DependentUpon>Class4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class5.resx">
+      <DependentUpon>Class5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class6.resx">
+      <DependentUpon>Class6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class7.resx">
+      <DependentUpon>Class7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>

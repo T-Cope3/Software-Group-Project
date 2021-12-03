@@ -16,11 +16,11 @@ namespace Software_Group_Project
         {
             InitializeComponent();
         }
-        String debCred, cardType, cardNum, expDate, CVV;
+        String ebCred, cardType, cardNum, expDate, CCVV;
 
         private void credit5_Click(object sender, EventArgs e)
         {
-            debCred = "Credit";
+           ebCred = "Credit";
             Console.WriteLine("Credit");
         }
 
@@ -61,7 +61,7 @@ namespace Software_Group_Project
 
         private void cvv_textBox_TextChanged(object sender, EventArgs e)
         {
-            CVV = cvv_textBox.Text;
+            CCVV = cvv_textBox.Text;
         }
 
         private void help5_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace Software_Group_Project
 
         private void debit5_Click(object sender, EventArgs e)
         {
-            debCred = "Debit";
+            ebCred = "Debit";
             Console.WriteLine("Debit");
         }
     }

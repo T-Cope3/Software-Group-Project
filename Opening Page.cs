@@ -500,6 +500,7 @@ namespace Software_Group_Project
             p15_home.Hide();
             p15_translabel.Hide();
             p15_count.Hide();
+            p15_next.Hide();
         }
         private void showAllPage15()
         {
@@ -511,6 +512,7 @@ namespace Software_Group_Project
             p15_home.Show();
             p15_translabel.Show();
             p15_count.Show();
+            p15_next.Show();
         }
         private void showAllPage16()
         {
@@ -890,26 +892,56 @@ namespace Software_Group_Project
         private void p6_debit5_Click(object sender, EventArgs e)
         {
             p6_debCred = "Debit";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p6_credit5_Click(object sender, EventArgs e)
         {
             p6_debCred = "Credit";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p6_discover5_Click(object sender, EventArgs e)
         {
             p6_cardType = "Discover";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p6_master5_Click(object sender, EventArgs e)
         {
             p6_cardType = "Master Card";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p6_americanEx5_Click(object sender, EventArgs e)
         {
             p6_cardType = "American Express";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p6_cardNum_textBox_TextChanged(object sender, EventArgs e)
@@ -1016,6 +1048,13 @@ namespace Software_Group_Project
 
         private void p8_crusade_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
+
             if (run == 1)
             {
               
@@ -1037,6 +1076,13 @@ namespace Software_Group_Project
 
         private void p8_large_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
+
             if (run == 1)
             {
                 newPizza.size = "Large";
@@ -1057,6 +1103,13 @@ namespace Software_Group_Project
 
         private void p8_medium_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
+
             if (run == 1)
             {
                 newPizza.size = "Medium";
@@ -1077,6 +1130,13 @@ namespace Software_Group_Project
 
         private void p8_small_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
+
             if (run == 1)
             {
                 newPizza.size = "Small";
@@ -1111,6 +1171,12 @@ namespace Software_Group_Project
 
         private void p9_regular_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.sauce = "Regular";
@@ -1131,6 +1197,12 @@ namespace Software_Group_Project
 
         private void p9_alfredo_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.sauce = "Alfredo";
@@ -1151,6 +1223,12 @@ namespace Software_Group_Project
 
         private void p9_bbq_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.sauce = "BBQ";
@@ -1171,6 +1249,12 @@ namespace Software_Group_Project
 
         private void p9_none_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.sauce = "None";
@@ -1215,6 +1299,12 @@ namespace Software_Group_Project
 
         private void p10_stuff_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.crust = "Stuffed";
@@ -1235,6 +1325,12 @@ namespace Software_Group_Project
 
         private void p10_reg_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.crust = "Regular";
@@ -1255,6 +1351,12 @@ namespace Software_Group_Project
 
         private void p10_thin_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.crust = "Thin";
@@ -1308,6 +1410,12 @@ namespace Software_Group_Project
 
         private void p11_cheese_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = ++newPizza.toppings;
@@ -1327,6 +1435,12 @@ namespace Software_Group_Project
 
         private void p11_pepp_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = ++newPizza.toppings;
@@ -1346,6 +1460,12 @@ namespace Software_Group_Project
 
         private void p11_bacon_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = ++newPizza.toppings;
@@ -1365,6 +1485,12 @@ namespace Software_Group_Project
 
         private void p11_ham_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = ++newPizza.toppings;
@@ -1384,6 +1510,12 @@ namespace Software_Group_Project
 
         private void p11_pine_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = ++newPizza.toppings;
@@ -1403,6 +1535,12 @@ namespace Software_Group_Project
 
         private void p11_mush_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.toppings = newPizza.toppings++;
@@ -1422,6 +1560,12 @@ namespace Software_Group_Project
 
         private void p11_olive_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
 
             if (run == 1)
             {
@@ -1447,6 +1591,12 @@ namespace Software_Group_Project
 
         private void p12_medium_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage_size = "Medium";
@@ -1467,6 +1617,12 @@ namespace Software_Group_Project
 
         private void p12_small_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage_size = "Small";
@@ -1487,6 +1643,12 @@ namespace Software_Group_Project
 
         private void p12_dr_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage = "Dr. Pepper";
@@ -1507,6 +1669,12 @@ namespace Software_Group_Project
 
         private void p12_pepsi_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage = "Pepsi";
@@ -1527,6 +1695,12 @@ namespace Software_Group_Project
 
         private void p12_sprite_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage = "Sprite";
@@ -1547,6 +1721,12 @@ namespace Software_Group_Project
 
         private void p12_coke_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage = "Coke";
@@ -1572,6 +1752,12 @@ namespace Software_Group_Project
 
         private void p12_diet_Click(object sender, EventArgs e)
         {
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
             if (run == 1)
             {
                 newPizza.beverage = "Diet Coke";
@@ -1738,21 +1924,45 @@ namespace Software_Group_Project
         private void p14_card_Click(object sender, EventArgs e)
         {
             p14_paymentType = "Card";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p14_cash_Click(object sender, EventArgs e)
         {
             p14_paymentType = "Cash";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p14_carryout_Click(object sender, EventArgs e)
         {
             p14_aquisition = "Carryout";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p14_delivery_Click(object sender, EventArgs e)
         {
             p14_aquisition = "Delivery";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p14_caltip_Click(object sender, EventArgs e) //this calculates tip, we need a box to display the calculation, just add it to the p14 group
@@ -1788,7 +1998,7 @@ namespace Software_Group_Project
             {
                 default:
                     {
-                        if (p14_tipBox.Text == null)
+                        if (p14_tipBox.Text == null || p14_tipBox.Text == "")
                             newPizza.tip = 0;
                         else
                         newPizza.tip = Double.Parse(p14_tipBox.Text);//if null parse
@@ -1796,7 +2006,7 @@ namespace Software_Group_Project
                     }
                 case 2:
                     {
-                        if (p14_tipBox.Text == null)
+                        if (p14_tipBox.Text == null || p14_tipBox.Text == "")
                             newPizza2.tip = 0;
                         else
                             newPizza2.tip = Double.Parse(p14_tipBox.Text);
@@ -1804,7 +2014,7 @@ namespace Software_Group_Project
                     }
                 case 3:
                     {
-                        if (p14_tipBox.Text == null)
+                        if (p14_tipBox.Text == null || p14_tipBox.Text == "")
                             newPizza3.tip = 0;
                         else
                             newPizza3.tip = Double.Parse(p14_tipBox.Text);
@@ -1870,6 +2080,12 @@ namespace Software_Group_Project
         private void p14_check_Click(object sender, EventArgs e)
         {
             p14_paymentType = "Check";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
         private void p15_home_Click(object sender, EventArgs e)
         {
@@ -1883,6 +2099,18 @@ namespace Software_Group_Project
         {
             pageHistory.Push(6);
             showAllPage6();
+            hideAllPage15();
+        }
+
+        private void p16_mamama_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void p15_next_Click_Click(object sender, EventArgs e)
+        {
+            pageHistory.Push(16);
+            showAllPage16();
             hideAllPage15();
         }
 
@@ -1905,7 +2133,9 @@ namespace Software_Group_Project
 
         private void p15_change_Click(object sender, EventArgs e)
         {
-
+            pageHistory.Push(2);
+            showAllPage2();
+            hideAllPage15();
         }
 
         private void p15_translabel_Click(object sender, EventArgs e)
@@ -1947,6 +2177,12 @@ namespace Software_Group_Project
 
             }
             p12_bevsize = "Large";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p11_doub_Click(object sender, EventArgs e)
@@ -1965,6 +2201,12 @@ namespace Software_Group_Project
             {
                 newPizza3.toppings = newPizza.toppings++;
 
+            }
+
+            Button btn = sender as Button;
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
             }
         }
 
@@ -1985,6 +2227,12 @@ namespace Software_Group_Project
                 newPizza3.toppings = newPizza.toppings++;
 
             }
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p11_veglove_Click(object sender, EventArgs e)
@@ -2003,6 +2251,12 @@ namespace Software_Group_Project
             {
                 newPizza3.toppings = newPizza.toppings++;
 
+            }
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
             }
         }
 
@@ -2071,6 +2325,12 @@ namespace Software_Group_Project
         private void p6_visa5_Click(object sender, EventArgs e)
         {
             p6_cardType = "Visa";
+            Button btn = sender as Button;
+             
+            if (btn != null)
+            {
+                btn.BackColor = (btn.BackColor == Color.White) ? Color.White : Color.Red;
+            }
         }
 
         private void p5_home_button5_Click(object sender, EventArgs e)
@@ -2120,10 +2380,12 @@ namespace Software_Group_Project
             else if (p4_new == p4_confirm)
             {
                 newCust.Password = p4_confirm;
-                showAllPage1();
-                pageHistory.Clear();
-                pageHistory.Push(1);
-                hideAllPage4();
+
+                goBack();
+                //showAllPage1();
+                //pageHistory.Clear();
+                //pageHistory.Push(1);
+                //hideAllPage4();
             }
             
         }

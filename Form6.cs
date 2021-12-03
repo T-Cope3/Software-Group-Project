@@ -40,6 +40,11 @@ namespace Software_Group_Project
             closeInt = closeInt_textBox.Text;
         }
 
+        private void saveButton6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void homeButton6_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();

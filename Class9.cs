@@ -41,7 +41,7 @@ namespace Software_Group_Project
             this.p16_mamajaon.AutoSize = true;
             this.p16_mamajaon.Location = new System.Drawing.Point(394, 52);
             this.p16_mamajaon.Name = "p16_mamajaon";
-            this.p16_mamajaon.Size = new System.Drawing.Size(180, 13);
+            this.p16_mamajaon.Size = new System.Drawing.Size(226, 16);
             this.p16_mamajaon.TabIndex = 0;
             this.p16_mamajaon.Text = "MAMA JOAN is preparing your pizza!";
             // 
@@ -50,16 +50,17 @@ namespace Software_Group_Project
             this.p16_wait.AutoSize = true;
             this.p16_wait.Location = new System.Drawing.Point(413, 244);
             this.p16_wait.Name = "p16_wait";
-            this.p16_wait.Size = new System.Drawing.Size(107, 13);
+            this.p16_wait.Size = new System.Drawing.Size(134, 16);
             this.p16_wait.TabIndex = 1;
             this.p16_wait.Text = "Estimated Wait Time:";
+            this.p16_wait.Click += new System.EventHandler(this.p16_wait_Click);
             // 
             // p15_count
             // 
             this.p15_count.AutoSize = true;
             this.p15_count.Location = new System.Drawing.Point(537, 244);
             this.p15_count.Name = "p15_count";
-            this.p15_count.Size = new System.Drawing.Size(13, 13);
+            this.p15_count.Size = new System.Drawing.Size(14, 16);
             this.p15_count.TabIndex = 2;
             this.p15_count.Text = "0";
             // 
@@ -103,6 +104,11 @@ namespace Software_Group_Project
             ((System.ComponentModel.ISupportInitialize)(this.p16_mamama)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void p16_wait_Click(object sender, EventArgs e)
+        {
 
         }
     }

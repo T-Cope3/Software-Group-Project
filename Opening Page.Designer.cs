@@ -2191,9 +2191,9 @@
             // 
             // p16_mamama
             // 
-            this.p16_mamama.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_mamama.BackColor = System.Drawing.SystemColors.Control;
             this.p16_mamama.Image = ((System.Drawing.Image)(resources.GetObject("p16_mamama.Image")));
-            this.p16_mamama.Location = new System.Drawing.Point(6, 12);
+            this.p16_mamama.Location = new System.Drawing.Point(6, 20);
             this.p16_mamama.Name = "p16_mamama";
             this.p16_mamama.Size = new System.Drawing.Size(370, 343);
             this.p16_mamama.TabIndex = 187;
@@ -2201,7 +2201,7 @@
             // 
             // p16_contact
             // 
-            this.p16_contact.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_contact.BackColor = System.Drawing.SystemColors.Control;
             this.p16_contact.Location = new System.Drawing.Point(493, 319);
             this.p16_contact.Name = "p16_contact";
             this.p16_contact.Size = new System.Drawing.Size(102, 23);
@@ -2211,7 +2211,7 @@
             // 
             // p16_trackorder
             // 
-            this.p16_trackorder.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_trackorder.BackColor = System.Drawing.SystemColors.Control;
             this.p16_trackorder.Location = new System.Drawing.Point(493, 290);
             this.p16_trackorder.Name = "p16_trackorder";
             this.p16_trackorder.Size = new System.Drawing.Size(102, 23);
@@ -2222,7 +2222,7 @@
             // p15_count
             // 
             this.p15_count.AutoSize = true;
-            this.p15_count.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p15_count.BackColor = System.Drawing.SystemColors.Control;
             this.p15_count.Location = new System.Drawing.Point(544, 228);
             this.p15_count.Name = "p15_count";
             this.p15_count.Size = new System.Drawing.Size(13, 13);
@@ -2232,7 +2232,7 @@
             // p16_wait
             // 
             this.p16_wait.AutoSize = true;
-            this.p16_wait.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_wait.BackColor = System.Drawing.SystemColors.Control;
             this.p16_wait.Location = new System.Drawing.Point(420, 228);
             this.p16_wait.Name = "p16_wait";
             this.p16_wait.Size = new System.Drawing.Size(107, 13);
@@ -2242,7 +2242,7 @@
             // p16_mamajaon
             // 
             this.p16_mamajaon.AutoSize = true;
-            this.p16_mamajaon.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.p16_mamajaon.BackColor = System.Drawing.SystemColors.Control;
             this.p16_mamajaon.Location = new System.Drawing.Point(401, 36);
             this.p16_mamajaon.Name = "p16_mamajaon";
             this.p16_mamajaon.Size = new System.Drawing.Size(180, 13);
@@ -2255,7 +2255,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.p16_mamama);
             this.Controls.Add(this.p16_contact);
             this.Controls.Add(this.p16_trackorder);
             this.Controls.Add(this.p15_count);
@@ -2440,6 +2439,7 @@
             this.Controls.Add(this.mamajoan1);
             this.Controls.Add(this.createAccount1);
             this.Controls.Add(this.login1);
+            this.Controls.Add(this.p16_mamama);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

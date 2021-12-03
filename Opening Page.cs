@@ -17,7 +17,6 @@ namespace Software_Group_Project
         {
             
             InitializeComponent();
-            currentPage = 1;
             hideAllPage2();
             hideAllPage3();
             hideAllPage4();

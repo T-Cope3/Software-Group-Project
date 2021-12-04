@@ -1012,7 +1012,7 @@
             // p7_save
             // 
             this.p7_save.BackColor = System.Drawing.SystemColors.Control;
-            this.p7_save.Location = new System.Drawing.Point(351, 407);
+            this.p7_save.Location = new System.Drawing.Point(348, 398);
             this.p7_save.Margin = new System.Windows.Forms.Padding(4);
             this.p7_save.Name = "p7_save";
             this.p7_save.Size = new System.Drawing.Size(100, 28);
@@ -1184,7 +1184,7 @@
             // p8_help
             // 
             this.p8_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p8_help.Location = new System.Drawing.Point(16, 411);
+            this.p8_help.Location = new System.Drawing.Point(13, 405);
             this.p8_help.Margin = new System.Windows.Forms.Padding(4);
             this.p8_help.Name = "p8_help";
             this.p8_help.Size = new System.Drawing.Size(100, 28);
@@ -1292,7 +1292,7 @@
             // p9_help
             // 
             this.p9_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p9_help.Location = new System.Drawing.Point(16, 407);
+            this.p9_help.Location = new System.Drawing.Point(12, 405);
             this.p9_help.Margin = new System.Windows.Forms.Padding(4);
             this.p9_help.Name = "p9_help";
             this.p9_help.Size = new System.Drawing.Size(100, 28);
@@ -1398,7 +1398,7 @@
             // p10_help
             // 
             this.p10_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p10_help.Location = new System.Drawing.Point(13, 411);
+            this.p10_help.Location = new System.Drawing.Point(12, 405);
             this.p10_help.Margin = new System.Windows.Forms.Padding(4);
             this.p10_help.Name = "p10_help";
             this.p10_help.Size = new System.Drawing.Size(100, 28);
@@ -1625,7 +1625,7 @@
             // p11_help
             // 
             this.p11_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p11_help.Location = new System.Drawing.Point(13, 411);
+            this.p11_help.Location = new System.Drawing.Point(12, 407);
             this.p11_help.Margin = new System.Windows.Forms.Padding(4);
             this.p11_help.Name = "p11_help";
             this.p11_help.Size = new System.Drawing.Size(100, 28);
@@ -1792,7 +1792,7 @@
             // p12_homebutton
             // 
             this.p12_homebutton.BackColor = System.Drawing.SystemColors.Control;
-            this.p12_homebutton.Location = new System.Drawing.Point(16, 412);
+            this.p12_homebutton.Location = new System.Drawing.Point(15, 405);
             this.p12_homebutton.Margin = new System.Windows.Forms.Padding(4);
             this.p12_homebutton.Name = "p12_homebutton";
             this.p12_homebutton.Size = new System.Drawing.Size(100, 28);
@@ -2019,7 +2019,7 @@
             // p13_help
             // 
             this.p13_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p13_help.Location = new System.Drawing.Point(17, 411);
+            this.p13_help.Location = new System.Drawing.Point(13, 407);
             this.p13_help.Margin = new System.Windows.Forms.Padding(4);
             this.p13_help.Name = "p13_help";
             this.p13_help.Size = new System.Drawing.Size(100, 28);
@@ -2172,7 +2172,7 @@
             // p14_Help
             // 
             this.p14_Help.BackColor = System.Drawing.SystemColors.Control;
-            this.p14_Help.Location = new System.Drawing.Point(13, 411);
+            this.p14_Help.Location = new System.Drawing.Point(13, 405);
             this.p14_Help.Margin = new System.Windows.Forms.Padding(4);
             this.p14_Help.Name = "p14_Help";
             this.p14_Help.Size = new System.Drawing.Size(100, 28);
@@ -2256,7 +2256,7 @@
             // p15_help
             // 
             this.p15_help.BackColor = System.Drawing.SystemColors.Control;
-            this.p15_help.Location = new System.Drawing.Point(12, 411);
+            this.p15_help.Location = new System.Drawing.Point(13, 405);
             this.p15_help.Margin = new System.Windows.Forms.Padding(4);
             this.p15_help.Name = "p15_help";
             this.p15_help.Size = new System.Drawing.Size(100, 28);

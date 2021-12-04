@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Final Sprint 2 SWE Project From Group 4
+//Due 12/3/2021 12:00AM
+
+
+
+//building of the project and initializations
 namespace Software_Group_Project
 {
 
@@ -18,6 +24,7 @@ namespace Software_Group_Project
             
             InitializeComponent();
             
+            //hiding everything but first overlay
             hideAllPage2();
             hideAllPage3();
             hideAllPage4();
@@ -35,6 +42,7 @@ namespace Software_Group_Project
             hideAllPage16();
         }
         
+        //building the functions to hide each layer
         private void hideAllPage1()
         {
             mamajoan1.Hide();
@@ -48,6 +56,7 @@ namespace Software_Group_Project
             email1.Hide();
             
         }
+        //also builiding a function to show each page as needed
         private void showAllPage1()
         {
             mamajoan1.Show();
@@ -530,6 +539,8 @@ namespace Software_Group_Project
             p16_trackorder.Hide();
             p16_wait.Hide();
         }
+
+        //a function that uses all of the previous to build a back button, uses a stack for efficiency
         public void goBack() 
         {
             Console.WriteLine("Stack Looks like!: " + pageHistory.ToString());
@@ -728,9 +739,11 @@ namespace Software_Group_Project
         }
 
 
+        //general stack that is used to record pages
         Stack<int> pageHistory = new Stack<int>();     
 
 
+        //variables used to store data as necessary
         String p3_phone, p3_pass, p4_current, p4_new, p4_confirm, p5_Name, p5_Phone, p5_password, p5_Address, p6_debCred, p6_cardNum, p6_expDate, p6_CVV, p6_cardType;
         bool junctioning = false,dontHave=false,loggedin=false, removed=false;
         String p7_routeNum, p7_account, p7_payment, p7_paymentdate, p8_size, p9_sauce, p10_crust,p12_beverage, p12_bevsize, p14_aquisition, p14_paymentType;
@@ -741,6 +754,8 @@ namespace Software_Group_Project
         Pizzas newPizza2 = new Pizzas();
         Pizzas newPizza3 = new Pizzas();
         
+        //tons of buttons will be used in this program
+        //this one, for instance, is the button to move onto the Log In page
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -751,6 +766,7 @@ namespace Software_Group_Project
             
         }
 
+        //Goes to create an account
         private void button3_Click(object sender, EventArgs e)
         {
             pageHistory.Push(5);
@@ -759,11 +775,13 @@ namespace Software_Group_Project
 
         }
 
+        //this is the initial form build which is called on startup
         private void Form1_Load(object sender, EventArgs e)
         {
             pageHistory.Push(1);
         }
 
+        //The go-to change information form button
         private void button4_Click(object sender, EventArgs e)
         {
             pageHistory.Push(2);
@@ -771,6 +789,7 @@ namespace Software_Group_Project
             showAllPage2();
         }
 
+        //button that begins the order, yet again another form button
         private void startOrder1_Click(object sender, EventArgs e)
         {
             showAllPage8();
@@ -803,6 +822,7 @@ namespace Software_Group_Project
 
         }
 
+        //the first of many back buttons
         private void back_Button3_Click(object sender, EventArgs e)
         {
             
@@ -810,6 +830,7 @@ namespace Software_Group_Project
             
         }
 
+        //implementation of the home button 
         private void home_Button3_Click(object sender, EventArgs e)
         {
             pageHistory.Clear();
@@ -818,6 +839,7 @@ namespace Software_Group_Project
             showAllPage1();
         }
 
+        //implementation of the submit button
         private void p3_submit_Button3_Click(object sender, EventArgs e)
         {
             if (p3_pass == newCust.Password && p3_phone == newCust.PhoneNumber)
@@ -828,7 +850,8 @@ namespace Software_Group_Project
             }
         }
             
-        
+        //everything from this point onwards is self explanatory
+        //if the code above is understood then the names alone should make this all readable
 
         private void p3_noAccount_Click(object sender, EventArgs e)
         {
@@ -854,6 +877,8 @@ namespace Software_Group_Project
             showAllPage4();
         }
 
+
+        //first of many instances of taking data from user-entered text boxes
         private void p5_name_textBox_TextChanged(object sender, EventArgs e)
         {
             p5_Name = p5_name_textBox.Text;
@@ -889,6 +914,8 @@ namespace Software_Group_Project
             pageHistory.Push(1);
         }
 
+        //the first implementation of a color-changing button. Stores the value of debit which the user selects as well
+        //same for the following buttons with different data
         private void p6_debit5_Click(object sender, EventArgs e)
         {
             p6_debCred = "Debit";
@@ -944,6 +971,7 @@ namespace Software_Group_Project
             }
         }
 
+        //more user boxes to data
         private void p6_cardNum_textBox_TextChanged(object sender, EventArgs e)
         {
             p6_cardNum = p6_cardNum_textBox.Text;
@@ -959,6 +987,7 @@ namespace Software_Group_Project
             p6_CVV = p6_cvv_textBox.Text;
         }
 
+        //won't let the user move on until they fill out the boxes
         private void p6_submit5_Click(object sender, EventArgs e)
         {
             if(p6_CVV == null || p6_CVV == "" || p6_cardType == null || p6_cardType == "" || p6_expDate == null || p6_expDate == "" || p6_cardNum == null || p6_cardNum == "" || p6_debCred == null || p6_debCred == ""){
@@ -986,9 +1015,10 @@ namespace Software_Group_Project
             hideAllPage7();
         }
 
+        //the first implementation of a help button popup
         private void p7_help_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Please fill in check information!");
         }
 
         private void p7_dateBox_TextChanged(object sender, EventArgs e)
@@ -1043,9 +1073,11 @@ namespace Software_Group_Project
 
         private void p8_help_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("hey! I'm p8!");
         }
 
+        //more colored button choices
+        //each of these associate the time that the user was brought to the item selection and add the next pizza based off of this
         private void p8_crusade_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -1294,7 +1326,7 @@ namespace Software_Group_Project
 
         private void p10_help_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("hey! I'm p10!");
         }
 
         private void p10_stuff_Click(object sender, EventArgs e)
@@ -1784,6 +1816,7 @@ namespace Software_Group_Project
             showAllPage8();
         }
 
+        //forcing the selection of a drink and a size before the order is processed
         private void p12_next_Click(object sender, EventArgs e)
         {
             if (p12_beverage == null || p12_beverage == ""||p12_bevsize==null||p12_bevsize=="")
@@ -1860,6 +1893,7 @@ namespace Software_Group_Project
 
         }
 
+        //first instance of removing a pizza
         private void p13_removepizza1_Click(object sender, EventArgs e)
         {
             run = 1;
@@ -1884,6 +1918,7 @@ namespace Software_Group_Project
             removed = true;
         }
 
+        //modification of a pizza instances
         private void p13_modpizza1_Click(object sender, EventArgs e)
         {
             showAllPage8();
@@ -1921,6 +1956,8 @@ namespace Software_Group_Project
             goBack(); 
         }
 
+        //more colored buttons for the user to pick payment type
+        //last clicked will be used
         private void p14_card_Click(object sender, EventArgs e)
         {
             p14_paymentType = "Card";
@@ -1965,6 +2002,7 @@ namespace Software_Group_Project
             }
         }
 
+        //calculate tip box based off price
         private void p14_caltip_Click(object sender, EventArgs e) //this calculates tip, we need a box to display the calculation, just add it to the p14 group
         {
             if(run==1){
@@ -1991,7 +2029,7 @@ namespace Software_Group_Project
         }
 
        
-
+        //displaying of the total from the tax and tip / normal pizza amount
         private void p14_tipBox_TextChanged(object sender, EventArgs e)
         {
             switch(run)
@@ -2038,6 +2076,7 @@ namespace Software_Group_Project
             
         }
 
+        //stops at the max of 3 pizzas, otherwise begins another pizza build
         private void p14_orderanother_Click(object sender, EventArgs e)
         {
             if (run == 3)
@@ -2064,9 +2103,10 @@ namespace Software_Group_Project
 
         }
 
+        //more help implemention
         private void p14_Help_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Calculate tip gives the recommended tip, and select one payment option.");
         }
 
         private void p14_Home_Click(object sender, EventArgs e)
@@ -2123,7 +2163,7 @@ namespace Software_Group_Project
 
         private void p15_help_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("This page is used to bring you to different options before the final page!");
         }
 
         private void p15_back_Click(object sender, EventArgs e)
@@ -2185,6 +2225,7 @@ namespace Software_Group_Project
             }
         }
 
+        //multiple toppings can be added of the same type or different types
         private void p11_doub_Click(object sender, EventArgs e)
         {
             if (run == 1)
@@ -2210,6 +2251,7 @@ namespace Software_Group_Project
             }
         }
 
+        //manual programming of the different combos
         private void p11_meatcombo_Click(object sender, EventArgs e)
         {
             if (run == 1)
@@ -2260,6 +2302,7 @@ namespace Software_Group_Project
             }
         }
 
+        //more next buttons, home buttons, etc.
         private void p10_next_Click(object sender, EventArgs e)
         {
             pageHistory.Push(11);
@@ -2371,6 +2414,7 @@ namespace Software_Group_Project
             p4_confirm = p4_confirmNewPassword_textBox.Text;
         }
 
+        //gating the user from continuing unless they have each section filled out
         private void p4_submit4_Click(object sender, EventArgs e)
         {
             if (p4_current == null || p4_current == "" || p4_new == null || p4_new == "" || p4_confirm == null || p4_confirm == "")
@@ -2426,6 +2470,7 @@ namespace Software_Group_Project
 
         private void p3_help_Button3_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("hey! I'm p3!");
             hideAllPage3();
         }
     }
